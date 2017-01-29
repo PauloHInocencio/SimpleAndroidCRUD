@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SimpleCRUD</string>
+    <string name="dummy_text_name">Paulo Inocencio</string>
+    <string name="add_new_person">Add New person</string>
+    <string name="remove_person">Remove Person</string>
+    <string name="placeholder_first_name">First Name</string>
+    <string name="placeholder_last_name">Last Name</string>
+    <string name="dummy_button_name">Register</string>
+    <string name="empty_first_name">First name required!</string>
+    <string name="empty_last_name">Last name required!</string>
+    <string name="empty_string_text">No persons found. Click the \"+\" action to add someone.</string>
+    <string name="insert_sample_data">Insert sample data</string>
+
+    <string name="dialog_deletion_title">Delete these register?</string>
+    <string name="dialog_deletion_message">You\'ll not be able to retrieve these information!</string>
+    <string name="dialog_deletion_confirmed">OK</string>
+    <string name="dialog_deletion_canceled">Cancel</string>
+    <string name="action_search">Action Search</string>
+
+</resources>
