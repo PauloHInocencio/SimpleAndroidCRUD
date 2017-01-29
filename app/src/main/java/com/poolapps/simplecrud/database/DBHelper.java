@@ -4,28 +4,36 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by paulo on 29/11/2016.
- */
 
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final String DB_FILE_NAME = "persons.db";
     public static final int DB_VERSION = 1;
 
+    private static DBHelper instance;
 
-    public DBHelper(Context context) {
+
+    public static DBHelper getInstance(Context context){
+        if (instance == null){
+            instance = new DBHelper(context.getApplicationContext());
+        }
+        return instance;
+    }
+
+    private DBHelper(Context context) {
         super(context, DB_FILE_NAME, null, DB_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(PersonTable.SQL_CREATE);
+        db.execSQL(PersonContract.Person.SQL_CREATE);
+        db.execSQL(PersonContract.VirtualPerson.SQL_CREATE);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL(PersonTable.SQL_DELETE);
+        db.execSQL(PersonContract.Person.SQL_DELETE);
+        db.execSQL(PersonContract.VirtualPerson.SQL_DELETE);
         onCreate(db);
     }
 }
