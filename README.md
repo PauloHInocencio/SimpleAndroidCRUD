@@ -26,7 +26,7 @@
 
  Time spent on this project was about a month.
 
- ## Video Walkthrough
+## Video Walkthrough
 
  Here's a walkthrough of implemented user stories:
 
