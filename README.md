@@ -1,16 +1,27 @@
-# Pre Work - Simple Android CRUD
+# Simple Android CRUD
 
   SimpleCrud is an Android app that allows insert, update, delete and searching a register from a SQLite database.
 
-## Functionalities:
 
-* [x] User can create a new register (name and last name).
-* [x] User can update a user (name and/or last name).
-* [x] User can delete a single register.
-* [x] User can delete multiple registers.
-* [x] User can searching for register (name and/or last name).	
+## Video Walkthrough
 
-## Knowledges applyeded
+ Here's a walkthrough of the app.
+
+<img src='https://github.com/PauloHInocencio/SimpleAndroidCRUD/blob/develop/simpleCrudwalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+ GIF created with LiceCap(http://www.cockos.com/licecap/).
+
+Functionalities
+===========
+
+ - User can create a new register (name and last name).
+ - User can update a user (name and/or last name).
+ - User can delete a single register.
+ - User can delete multiple registers.
+ - User can searching for register (name and/or last name).	
+
+Knowledges applyeded
+===========
 
 * Android database API.
 * ContentProvider.
@@ -20,16 +31,5 @@
 * Sharing data with Intents.
 * Dialog.
 
-## Notes
 
- I spent some time to understand Content Provider and the basic of manipulation of data in Android.
 
- Time spent on this project was about a month.
-
-## Video Walkthrough
-
- Here's a walkthrough of implemented user stories:
-
-<img src='https://github.com/PauloHInocencio/SimpleAndroidCRUD/blob/develop/SimpleCRUD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
- GIF created with LiceCap(http://www.cockos.com/licecap/).
