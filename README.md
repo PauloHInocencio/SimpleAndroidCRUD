@@ -7,7 +7,7 @@
 
  Here's a walkthrough of the app.
 
-<img src='https://github.com/PauloHInocencio/SimpleAndroidCRUD/blob/develop/simpleCrudwalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/PauloHInocencio/SimpleAndroidCRUD/blob/master/simpleCrudwalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
  GIF created with LiceCap(http://www.cockos.com/licecap/).
 
